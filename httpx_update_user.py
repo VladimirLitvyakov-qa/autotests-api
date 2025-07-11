@@ -26,7 +26,7 @@ login_response_data = login_response.json()
 print(f"Login data: {login_response_data}")
 
 
-patch_user_headers = {
+update_user_headers = {
     "Authorization": f"Bearer {login_response_data['token']['accessToken']}"
 }
 update_user_payload = {
@@ -35,10 +35,10 @@ update_user_payload = {
   "firstName": "string",
   "middleName": "string"
 }
-patch_user_response = httpx.patch(
+update_user_response = httpx.patch(
     f"{base_url}/api/v1/users/{create_user_response_data['user']['id']}",
-    headers=patch_user_headers,
+    headers=update_user_headers,
     json=update_user_payload
 )
-patch_user_response_data = patch_user_response.json()
-print(f"Update user data: {patch_user_response_data}")
+update_user_response_data = update_user_response.json()
+print(f"Update user data: {update_user_response_data}")
