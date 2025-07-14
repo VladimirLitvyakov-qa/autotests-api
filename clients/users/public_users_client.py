@@ -4,7 +4,7 @@ from clients.api_client import APIClient
 from typing import TypedDict
 
 
-class CreateUserDict(TypedDict):
+class CreateUserRequestDict(TypedDict):
     """
     Описание структуры запроса для создания пользователя
     """
@@ -20,7 +20,7 @@ class PublicUsersClient(APIClient):
     Клиент для работы с public-методом /api/v1/users
     """
 
-    def create_user_api(self, request: CreateUserDict) -> Response:
+    def create_user_api(self, request: CreateUserRequestDict) -> Response:
         """
         Метод создает нового пользователя
 
