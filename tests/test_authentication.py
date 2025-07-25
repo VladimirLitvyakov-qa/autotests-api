@@ -14,7 +14,7 @@ def test_login():
     authentication_client = get_authentication_client()
 
     create_user_request = CreateUserRequestSchema()
-    public_users_client.create_user_api(create_user_request)
+    public_users_client.create_user(create_user_request)
 
     login_request = LoginRequestSchema(email=create_user_request.email, password=create_user_request.password)
     login_response = authentication_client.login_api(login_request)
