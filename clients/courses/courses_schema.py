@@ -30,7 +30,7 @@ class GetCoursesQuerySchema(BaseModel):
     user_id: str = Field(alias="userId")
 
 
-class CreateCoursesRequestSchema(BaseModel):
+class CreateCourseRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание курса.
     """
@@ -52,7 +52,7 @@ class CreateCourseResponseSchema(BaseModel):
     course: CourseSchema
 
 
-class UpdateCoursesRequestSchema(BaseModel):
+class UpdateCourseRequestSchema(BaseModel):
     """
     Описание структуры запроса на обновление курса.
     """

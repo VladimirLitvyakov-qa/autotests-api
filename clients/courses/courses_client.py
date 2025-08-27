@@ -4,9 +4,9 @@ from clients.api_client import APIClient
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 from clients.courses.courses_schema import (
     GetCoursesQuerySchema,
-    CreateCoursesRequestSchema,
+    CreateCourseRequestSchema,
     CreateCourseResponseSchema,
-    UpdateCoursesRequestSchema
+    UpdateCourseRequestSchema
 )
 
 
@@ -33,7 +33,7 @@ class CoursesClient(APIClient):
         """
         return self.get(f"/api/v1/courses/{course_id}")
 
-    def create_course_api(self, request: CreateCoursesRequestSchema) -> Response:
+    def create_course_api(self, request: CreateCourseRequestSchema) -> Response:
         """
         Метод создания курса.
 
@@ -43,7 +43,7 @@ class CoursesClient(APIClient):
         """
         return self.post("/api/v1/courses", json=request.model_dump(by_alias=True))
 
-    def update_course_api(self, course_id: str, request: UpdateCoursesRequestSchema) -> Response:
+    def update_course_api(self, course_id: str, request: UpdateCourseRequestSchema) -> Response:
         """
         Метод обновления курса.
 
@@ -62,7 +62,7 @@ class CoursesClient(APIClient):
         """
         return self.delete(f"/api/v1/courses/{course_id}")
 
-    def create_course(self, request: CreateCoursesRequestSchema) -> CreateCourseResponseSchema:
+    def create_course(self, request: CreateCourseRequestSchema) -> CreateCourseResponseSchema:
         response = self.create_course_api(request)
         return CreateCourseResponseSchema.model_validate_json(response.text)
 
