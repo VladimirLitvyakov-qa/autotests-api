@@ -9,8 +9,8 @@ def assert_create_exercise_response(
     """
     Проверяет, что ответ на создание задания соответствует данным из запроса.
 
-    :param request: Исходный запрос на обновление курса.
-    :param response: Ответ API с обновленными данными курса.
+    :param request: Исходный запрос на создание задания.
+    :param response: Ответ API с данными созданного задания.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
     assert_equal(response.exercise.title, request.title, "title")
