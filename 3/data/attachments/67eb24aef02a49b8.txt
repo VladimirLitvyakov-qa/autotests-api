@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA2OjA4OjQ1LjE0NTE1OSIsInVzZXJfaWQiOiIzOWQ1Yzg5ZC1iYzY3LTQ3OGItYWM4Zi1kYWIyNGYwMDEzMmQifQ.eX0N1FSaZdxhlvtgB5KTVHEiGAbiXCIwuwvaSRxsgwE' \
+  -H 'content-length': '579' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Предоставить умирать рот казнь за посидеть.","maxScore":63,"minScore":6,"description":"Спешить дрогнуть князь уточнить лететь полностью. Ярко сверкающий неожиданно достоинство карандаш грудь. Ученый прощение реклама дружно пропадать тяжелый домашний.","estimatedTime":"6 weeks","previewFileId":"64a2524c-e786-4044-996d-78c30dc41e28","createdByUserId":"39d5c89d-bc67-478b-ac8f-dab24f00132d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA2OjA4OjQ0Ljg3MDI3MCIsInVzZXJfaWQiOiJiNWQ4MGM3Yy1lYTE0LTQ1NmQtOGFlYi0wNTY3ZDRkZGNmZTYifQ.-xqS-pXytwjecOff3e4B5Xk3xYaFMUgB4ox4ImqzHHQ' \
+  -H 'content-length': '522' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Белье костер выразить забирать четко.","maxScore":85,"minScore":16,"description":"Оставить заплакать терапия степь провинция еврейский. Рай упор тревога порог тысяча издали единый. Цепочка ныне инструкция избегать висеть.","estimatedTime":"1 weeks","previewFileId":"3686c34e-7e21-4983-8e5c-5c3013620b1e","createdByUserId":"b5d80c7c-ea14-456d-8aeb-0567d4ddcfe6"}'

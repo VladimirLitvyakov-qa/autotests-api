@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA2OjA4OjQ2LjA5ODM4MSIsInVzZXJfaWQiOiIzNGEzNmM3Yi01Y2Q0LTQyNzgtYjg1NC0yNzM4ZTlkYzk0NjUifQ.8U5OBpHCVfPTGK99wMRIsxCs7isgTmKlM4FMh_YXL3c' \
+  -H 'content-length': '679' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Означать райком опасность да спорт домашний вздрогнуть инвалид.","maxScore":70,"minScore":10,"description":"Расстегнуть командующий бак социалистический висеть угодный заведение. Инвалид мгновение космос уточнить.\nШлем постоянный наступать космос отметить. Способ прежде равнодушный запеть четко кольцо.","estimatedTime":"4 weeks","previewFileId":"8c0d97bd-ea39-4669-8a26-811440badf7a","createdByUserId":"34a36c7b-5cd4-4278-b854-2738e9dc9465"}'
