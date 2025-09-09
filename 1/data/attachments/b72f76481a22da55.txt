@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA0OjM4OjI3LjA5MzM2NCIsInVzZXJfaWQiOiJhZTgzYjgwMS02ZGI4LTRjZTAtODVhOC04NjJlYmE3YmYyM2YifQ.mNycGXf8l-_MgAuh8TSa5WQe4vBOjnl34CPq5jXs7e0' \
+  -H 'content-length': '598' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Счастье угол запеть а растеряться вытаскивать деньги написать.","maxScore":88,"minScore":22,"description":"Фонарик выгнать сустав миг около горький волк. Факультет каюта помолчать присесть миллиард радость.\nЧувство табак угроза пересечь решетка неожиданный при.","estimatedTime":"1 weeks","previewFileId":"46e6b4e5-ebba-4535-82a2-9ec906e23eba","createdByUserId":"ae83b801-6db8-4ce0-85a8-862eba7bf23f"}'

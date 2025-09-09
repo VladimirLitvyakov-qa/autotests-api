@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA0OjM4OjI5LjUwNjU1MiIsInVzZXJfaWQiOiJjOWE0ZDg0Ni1lYWQwLTRmOGItYTAwYy1hMzJhODY2ZDkzYTQifQ.gOqRhf21dQU6HQRI6sfAgLT8XgjejLFioECzi0_5gRo' \
+  -H 'content-length': '510' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Правый эффект коричневый рай правильный настать покидать.","maxScore":86,"minScore":16,"description":"Идея прощение близко возмутиться налоговый казнь. Ложиться слать парень жить. Песня лететь рота невозможно блин.","estimatedTime":"10 weeks","previewFileId":"a198968b-d3a0-4b4e-844d-e42d33a90619","createdByUserId":"c9a4d846-ead0-4f8b-a00c-a32a866d93a4"}'

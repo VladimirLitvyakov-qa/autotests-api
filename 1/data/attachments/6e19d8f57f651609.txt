@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA0OjM4OjI1LjkwNzM1NSIsInVzZXJfaWQiOiJmOWMzYmM0Yi0zYzM0LTQ2ODctODQ2Zi1lYTQwNGJkYWRiODQifQ.JOCAxLa6Y0qp2w5OL906ITw7dc38_hqFozPnOsWSLF8' \
+  -H 'content-length': '619' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Инвалид сохранять ломать бетонный.","maxScore":69,"minScore":3,"description":"Адвокат висеть казнь мрачно. Бок теория райком прежний. Адвокат за задрать.\nСпалить покидать разводить направо манера сынок настать. Невыносимый умолять встать. Да горький разуметься расстегнуть.","estimatedTime":"7 weeks","previewFileId":"93a25d54-ae54-45ce-abaa-db8039d7d9b5","createdByUserId":"f9c3bc4b-3c34-4687-846f-ea404bdadb84"}'

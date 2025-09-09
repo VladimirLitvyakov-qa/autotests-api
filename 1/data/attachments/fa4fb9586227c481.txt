@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/70d90ce3-44d0-4f9f-ab7f-a746ef0996d9' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA0OjM4OjI2LjE4MDM0NyIsInVzZXJfaWQiOiJhNDhjNTI2Mi03MzQyLTQyNjMtOGU4Yy0yZGZjNGJjOGNjMjAifQ.zXadNmdkcAcN64W9V_9scu7r2WI0GqImT46Eu_HxGaw' \
+  -H 'content-length': '539' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Смеяться расстегнуть выразить домашний ставить мгновение жидкий.","maxScore":80,"minScore":27,"description":"Конференция адвокат аллея дурацкий устройство зима успокоиться. Ученый товар растеряться сомнительный освобождение зато. Строительство отметить адвокат встать плавно возмутиться.","estimatedTime":"8 weeks"}'

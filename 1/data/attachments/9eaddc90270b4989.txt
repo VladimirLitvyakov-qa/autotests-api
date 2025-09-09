@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA0OjM4OjI3LjM2NzA0NCIsInVzZXJfaWQiOiI5NWE2MDRiMC1iNDdkLTQyN2EtYTBiMy04NTIzZWUwZTY1NTUifQ.dJ2u9JV1hTcGreUbJD26C8ZnM3m-Lj6Yz6ciemgnyMg' \
+  -H 'content-length': '447' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Палата бочок палата.","maxScore":64,"minScore":23,"description":"Возможно головной спичка какой страсть пропасть. Угол горький выразить белье набор. Пастух передо отметить приятель.","estimatedTime":"6 weeks","previewFileId":"00fe1e1c-d231-417e-bab4-296e4acd3eb2","createdByUserId":"95a604b0-b47d-427a-a0b3-8523ee0e6555"}'

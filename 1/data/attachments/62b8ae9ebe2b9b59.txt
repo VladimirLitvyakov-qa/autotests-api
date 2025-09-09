@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA0OjM4OjI2LjE4MDM0NyIsInVzZXJfaWQiOiJhNDhjNTI2Mi03MzQyLTQyNjMtOGU4Yy0yZGZjNGJjOGNjMjAifQ.zXadNmdkcAcN64W9V_9scu7r2WI0GqImT46Eu_HxGaw' \
+  -H 'content-length': '595' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Мгновение сходить гулять коричневый число посвятить.","maxScore":94,"minScore":22,"description":"Сомнительный эффект заработать порог подземный. Точно страсть тесно степь советовать. Перебивать неправда славный социалистический военный господь вывести войти.","estimatedTime":"2 weeks","previewFileId":"d12e2d54-470e-4d2f-a501-04bec2fdbaf6","createdByUserId":"a48c5262-7342-4263-8e8c-2dfc4bc8cc20"}'

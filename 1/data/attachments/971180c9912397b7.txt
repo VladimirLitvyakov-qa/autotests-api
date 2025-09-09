@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA0OjM4OjI4LjI3MjQ3NCIsInVzZXJfaWQiOiI4YmJmY2M5Yi1mOWIwLTRjMTgtOWU3Yy01ODUwZDg3M2ZkNjIifQ.PiE9cVhYdtVQmVKUU__P4nESbhUKyNSI_coJLpnbXoY' \
+  -H 'content-length': '612' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Палата счастье остановить вскакивать запеть выраженный уточнить.","maxScore":66,"minScore":15,"description":"Торопливый налево при бетонный дальний мера доставать тесно. Нервно дружно помимо миф. Освободить ленинград разводить обида другой полевой командир сверкающий.","estimatedTime":"3 weeks","previewFileId":"e143b6cc-713b-4147-94e4-734f729ae520","createdByUserId":"8bbfcc9b-f9b0-4c18-9e7c-5850d873fd62"}'
