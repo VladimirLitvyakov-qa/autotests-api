@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA2OjAxOjE0LjY1NTAyNCIsInVzZXJfaWQiOiI4ZDQyY2M2My1jZTM1LTRkODgtYmU4NS01YzY5MjM3ZWFkM2EifQ.4Q5s2_g85Pofr0n6ljFP2RUfwx5dPUsbzCME4VLSOtU' \
+  -H 'content-length': '432' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Провал изображать наступать налево лететь четко теория.","maxScore":95,"minScore":15,"description":"Достоинство степь славный тревога. Важный миг уничтожение грустный куча.","estimatedTime":"3 weeks","previewFileId":"0897b34a-0d5d-4797-a27f-aacbdbb44d31","createdByUserId":"8d42cc63-ce35-4d88-be85-5c69237ead3a"}'

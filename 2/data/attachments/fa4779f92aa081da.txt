@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA2OjAxOjEyLjI5MDI3MyIsInVzZXJfaWQiOiJhODBkMWE4Zi02NDJhLTQyYWMtYjIxOS02YjMzYWY2YzYwNDIifQ.f6jN9XhBqcg82Fl7PXeX_yPG-wYvhlT8ngIrLDMf39M' \
+  -H 'content-length': '641' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Основание сомнительный иной коммунизм картинка.","maxScore":76,"minScore":23,"description":"Похороны чем степь миллиард пламя. Трясти промолчать умирать ягода.\nПалец коммунизм ход багровый дрогнуть зима. Карандаш падать прошептать ручей. Выразить монета неправда легко самостоятельно.","estimatedTime":"9 weeks","previewFileId":"e37c30da-cab2-4fa0-b651-b27dd734bbc3","createdByUserId":"a80d1a8f-642a-42ac-b219-6b33af6c6042"}'

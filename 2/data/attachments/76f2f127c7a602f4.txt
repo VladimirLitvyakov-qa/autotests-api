@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA2OjAxOjE0LjkyNzQ3NiIsInVzZXJfaWQiOiJkMzkzMTU4ZC04OTJjLTRmMDYtOWMzYy0yOGI0MTg1Mzk5YTcifQ.HEobBU9r-JjlV0u_hnEtyfzNrRIzV0KtxvEDh0dOL6U' \
+  -H 'content-length': '548' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Налоговый анализ механический июнь.","maxScore":67,"minScore":6,"description":"Ребятишки степь ложиться дорогой реклама умолять рай. Приятель термин палец заплакать крыса очко решение. Иной достоинство снимать палец песенка опасность.","estimatedTime":"3 weeks","previewFileId":"03accf14-c7c5-48d7-95e6-194c28f96daa","createdByUserId":"d393158d-892c-4f06-9c3c-28b4185399a7"}'

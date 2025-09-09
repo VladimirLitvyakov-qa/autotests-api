@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA2OjAxOjEzLjQ3NTY0NiIsInVzZXJfaWQiOiI3ZTZmODE5OC1lNTc2LTRkM2QtYWQ2My1hZTJkZjllYWY1MTMifQ.gWkSbATkFBKNXt0BAkFIFzcQLphTPtdBB4nFn2R9BdU' \
+  -H 'content-length': '521' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Пропасть потрясти дыхание скрытый потянуться магазин чем горький.","maxScore":69,"minScore":14,"description":"Бегать протягивать космос построить палка фонарик грустный. Рабочий редактор пропасть помимо жить советовать.","estimatedTime":"9 weeks","previewFileId":"b7a129c3-e08f-4da0-8bae-d72a2c42a593","createdByUserId":"7e6f8198-e576-4d3d-ad63-ae2df9eaf513"}'

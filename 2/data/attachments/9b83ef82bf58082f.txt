@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTA5VDA2OjAxOjEzLjc0NzY1NSIsInVzZXJfaWQiOiJiMTAyMjhhOS02OWQ3LTQzOWMtYmQ4NC00ODY3MmZkODZkOWIifQ.Kf_9LzyfYvfnB_A-bnM6M2cQ0gODTx9pvOICuc_yRPU' \
+  -H 'content-length': '527' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Совет понятный полюбить командир.","courseId":"fb639964-fb0b-4ff0-b1bd-9bbab62705ab","maxScore":66,"minScore":10,"orderIndex":46,"description":"Лететь валюта второй космос. Славный посвятить боец передо рота кидать стакан.\nНеожиданный деньги нервно носок. Перебивать спорт призыв исполнять советовать присесть чем.","estimatedTime":"9 weeks"}'
