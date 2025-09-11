@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjI5OjA1LjQ3NjY4MiIsInVzZXJfaWQiOiI4ODUzZTRmMC0zMTBkLTRiZDYtOWU2NS05ZmVmMGFmNjc2MDYifQ.GjmKqw_CHC0NTuqdPIMEfp3-zR5dOZ2mzzFvNx7d0QU' \
+  -H 'content-length': '505' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Уточнить художественный дошлый сынок указанный.","maxScore":54,"minScore":18,"description":"За танцевать очередной банда граница ведь спорт металл. Правление крутой грустный бабочка. Умолять возбуждение природа.","estimatedTime":"1 weeks","previewFileId":"4b41e9b7-0837-4c02-b758-9b74164170d9","createdByUserId":"8853e4f0-310d-4bd6-9e65-9fef0af67606"}'

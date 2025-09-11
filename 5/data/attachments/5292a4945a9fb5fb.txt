@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjI5OjA3LjU4OTc4NCIsInVzZXJfaWQiOiI5MmMyZWJlMi0wYTgxLTQ0NTYtOWIyOS02NGUyM2NkYmJlODAifQ.vTyIDNmoM7_ADGTxcf7sh8rYEOO9zFcVyGA46PLEEvk' \
+  -H 'content-length': '555' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Возмутиться уточнить головка монета.","maxScore":96,"minScore":25,"description":"Картинка салон естественный дальний похороны. Жить растеряться провал торговля сверкающий правильный намерение темнеть. Сохранять интеллектуальный дорогой.","estimatedTime":"3 weeks","previewFileId":"400595a1-4209-4c74-afa3-76b38786ee84","createdByUserId":"92c2ebe2-0a81-4456-9b29-64e23cdbbe80"}'

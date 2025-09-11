@@ -1,0 +1,25 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=49815467-e967-4e47-a3f8-50e10c362a99
+INFO     HTTP_LOGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=49815467-e967-4e47-a3f8-50e10c362a99
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     ERRORS_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of "exercises" equals to 1
+INFO     ERRORS_ASSERTIONS:exercises.py:52 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 2cc165ea-6021-4dd0-96ca-5cb4812099c5
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Падаль страсть при встать умирать.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 49815467-e967-4e47-a3f8-50e10c362a99
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 62
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 55
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Правление эпоха доставать секунда дружно покидать основание. Войти валюта поговорить ребятишки второй секунда. Зачем изучить легко вряд ныне висеть. Рота естественный новый засунуть господь.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

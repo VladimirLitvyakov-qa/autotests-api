@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjI5OjA2LjY3NjMyOCIsInVzZXJfaWQiOiI3MDBiMzZhMy0xYzc0LTRmYmUtOGRhYy0xMzZmZjAwZWM1MzcifQ.rL3kkLVbJ3XsJMadhr8hlY7InHfWBd9WEO4xgseUQSA' \
+  -H 'content-length': '588' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Заведение устройство витрина холодно запретить порт.","courseId":"b2bb7e57-caa0-4985-9f99-2dfb56b2b0d5","maxScore":93,"minScore":11,"orderIndex":97,"description":"Издали белье посидеть юный бетонный изображать костер. Юный роскошный результат.\nОтражение пробовать руководитель ставить расстройство ребятишки. Лапа космос механический провинция.","estimatedTime":"10 weeks"}'

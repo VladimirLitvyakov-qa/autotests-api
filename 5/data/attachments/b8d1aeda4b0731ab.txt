@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjI5OjA2LjQwMjMwMiIsInVzZXJfaWQiOiIzYmY4NzQ1My00ZmU2LTRhM2EtOWE2Yi04NWJjMGEwZjU2YjQifQ.E0z6KaBSL-BYXCEWcokevEndCYqeFblkcxbS1V6m3aY' \
+  -H 'content-length': '662' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Подземный изредка пропаганда выбирать князь монета.","maxScore":64,"minScore":26,"description":"Место развитый банда ночь приятель неправда потянуться. Четко куча сравнение вариант падаль наткнуться триста.\nЯрко функция монета триста достоинство мелькнуть проход тута. Увеличиваться видимо зима.","estimatedTime":"8 weeks","previewFileId":"b833d489-90fa-4bd6-91ad-b03581eafea8","createdByUserId":"3bf87453-4fe6-4a3a-9a6b-85bc0a0f56b4"}'

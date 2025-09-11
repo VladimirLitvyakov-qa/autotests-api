@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjI5OjA4LjgwNzkzOCIsInVzZXJfaWQiOiIwMDg0NDJmMC00ZjVhLTQ5ZDUtYWVkYS05YmUzNDc5ZDBhYTgifQ.ZhbDtP7FDAOzoamG0TWukS55nTtisJury7G5a3aAw84' \
+  -H 'content-length': '565' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Падаль страсть при встать умирать.","courseId":"49815467-e967-4e47-a3f8-50e10c362a99","maxScore":62,"minScore":15,"orderIndex":55,"description":"Правление эпоха доставать секунда дружно покидать основание. Войти валюта поговорить ребятишки второй секунда. Зачем изучить легко вряд ныне висеть. Рота естественный новый засунуть господь.","estimatedTime":"1 weeks"}'

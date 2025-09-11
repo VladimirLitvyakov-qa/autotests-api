@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjI5OjA2LjY3NjMyOCIsInVzZXJfaWQiOiI3MDBiMzZhMy0xYzc0LTRmYmUtOGRhYy0xMzZmZjAwZWM1MzcifQ.rL3kkLVbJ3XsJMadhr8hlY7InHfWBd9WEO4xgseUQSA' \
+  -H 'content-length': '563' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Рассуждение возмутиться плод бочок.","maxScore":97,"minScore":4,"description":"Механический еврейский точно желание некоторый даль покидать. Новый находить остановить отдел уничтожение бегать запустить. Чувство прежний жидкий поколение июнь.","estimatedTime":"4 weeks","previewFileId":"17015985-9c66-4992-9282-1d9dbb9a865d","createdByUserId":"700b36a3-1c74-4fbe-8dac-136ff00ec537"}'

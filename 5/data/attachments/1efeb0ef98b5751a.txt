@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjI5OjA3Ljg2MjYzNCIsInVzZXJfaWQiOiIyMDkxZTI3NS05YjFhLTQxOTItYWRhNi0wNDI4ODExNDkwODcifQ.dxIfVk8YEAs83AD65PuH-W1awWPgnmL4bvl0PfOYThQ' \
+  -H 'content-length': '490' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Юный очередной покидать парень желание поймать.","maxScore":95,"minScore":6,"description":"Некоторый дурацкий через прелесть потом изучить исполнять. Задрать намерение художественный покидать бровь что.","estimatedTime":"7 weeks","previewFileId":"a0aa67a4-c50c-42bf-9d6f-f799d0c7c9cc","createdByUserId":"2091e275-9b1a-4192-ada6-042881149087"}'

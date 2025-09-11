@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b6a20541-fe1e-4a51-881d-6cc429dbf47f' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjI5OjA1LjQ3NjY4MiIsInVzZXJfaWQiOiI4ODUzZTRmMC0zMTBkLTRiZDYtOWU2NS05ZmVmMGFmNjc2MDYifQ.GjmKqw_CHC0NTuqdPIMEfp3-zR5dOZ2mzzFvNx7d0QU' \
+  -H 'content-length': '409' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Сбросить предоставить покидать стакан реклама дремать.","maxScore":93,"minScore":22,"description":"Вообще дошлый ломать картинка плясать. Темнеть актриса порядок анализ вообще чем жестокий. Боец вперед налоговый умолять.","estimatedTime":"6 weeks"}'

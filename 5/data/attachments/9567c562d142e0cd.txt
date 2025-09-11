@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjI5OjA1LjIwMzg5OCIsInVzZXJfaWQiOiJkNDgwNDE0Ny04ZTM0LTRiMGEtYjdlYS1iMzdlZTFhMWI2YTMifQ.Rxelai-nPh_LozRQ8b4wgTQJ70Crtr3EPuJAFGysPYQ' \
+  -H 'content-length': '470' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Покидать чем товар очередной.","maxScore":95,"minScore":13,"description":"Прежде ломать цвет заложить парень голубчик перебивать. Мусор факультет добиться за правый призыв. Порядок рабочий чем.","estimatedTime":"10 weeks","previewFileId":"3515579d-884e-4e70-9faa-6476fe35d209","createdByUserId":"d4804147-8e34-4b0a-b7ea-b37ee1a1b6a3"}'

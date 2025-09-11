@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjI5OjA4LjgwNzkzOCIsInVzZXJfaWQiOiIwMDg0NDJmMC00ZjVhLTQ5ZDUtYWVkYS05YmUzNDc5ZDBhYTgifQ.ZhbDtP7FDAOzoamG0TWukS55nTtisJury7G5a3aAw84' \
+  -H 'content-length': '523' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Порт изредка заработать пространство сравнение танцевать терапия недостаток.","maxScore":72,"minScore":8,"description":"Вперед слать торговля функция. Домашний господь тысяча пространство район находить материя адвокат.","estimatedTime":"6 weeks","previewFileId":"a3adf013-22f0-4042-9238-e73a6429209e","createdByUserId":"008442f0-4f5a-49d5-aeda-9be3479d0aa8"}'

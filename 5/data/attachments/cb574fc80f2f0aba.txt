@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjI5OjA0LjA2MjcxMSIsInVzZXJfaWQiOiJmZWZkNjBmYi1jNWU5LTRlOTQtOTk0OC04YzNjNzRkYTMwZWUifQ.RxMjyudjNsJ0wBcfxA-svd341Mi4IdmIzzmFqAgjAI8' \
+  -H 'content-length': '422' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Еврейский запеть способ художественный.","maxScore":91,"minScore":25,"description":"Спорт рис означать конференция. Куча магазин смеяться. Мрачно разводить тута точно.","estimatedTime":"6 weeks","previewFileId":"e12ea15a-e764-4ea8-9c8b-e2b396a7e42f","createdByUserId":"fefd60fb-c5e9-4e94-9948-8c3c74da30ee"}'
