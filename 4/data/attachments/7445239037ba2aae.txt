@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIyOjEzLjEyNjE5NSIsInVzZXJfaWQiOiI5YWRhYmQxOS03ZGNiLTQxNjItYjg0Ni03YzVlN2I3OTRkYWYifQ.ynm8MU_iFCoj8qwi6HDghMMXaMJpuEoOdiu7aAaoBIE' \
+  -H 'content-length': '594' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Термин пропаганда труп товар желание.","maxScore":100,"minScore":6,"description":"Вперед ответить наслаждение видимо полевой командир результат. Рот означать ярко.\nФункция развернуться лапа природа. Предоставить слишком инфекция пропасть одиннадцать головка.","estimatedTime":"9 weeks","previewFileId":"d56ba81e-de40-4c6e-9f77-6f249bb918fb","createdByUserId":"9adabd19-7dcb-4162-b846-7c5e7b794daf"}'

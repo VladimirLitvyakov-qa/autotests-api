@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIyOjEzLjEyNjE5NSIsInVzZXJfaWQiOiI5YWRhYmQxOS03ZGNiLTQxNjItYjg0Ni03YzVlN2I3OTRkYWYifQ.ynm8MU_iFCoj8qwi6HDghMMXaMJpuEoOdiu7aAaoBIE' \
+  -H 'content-length': '421' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Тюрьма кидать миллиард бровь сутки плод спалить.","courseId":"051e80bb-244b-4dc1-91b1-d00c30678381","maxScore":51,"minScore":30,"orderIndex":65,"description":"Зима провал тюрьма природа пропадать. Миг наткнуться инструкция вариант устройство некоторый юный.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIyOjE0LjkzOTU2MyIsInVzZXJfaWQiOiI0MzFmNTJkYS05MzNhLTQxMmYtOTk4Zi05ZWQ3NzVkYjljZjMifQ.SPSs2WOqHCq_pua-eS7qg2uerU1XGYG1_wf8OTUbMFQ' \
+  -H 'content-length': '357' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"При пропадать карандаш бок адвокат заявление дыхание.","maxScore":62,"minScore":3,"description":"Бак налоговый покидать передо чем.","estimatedTime":"10 weeks","previewFileId":"2b5aae1c-b82b-4ef7-9951-44dbad3eda08","createdByUserId":"431f52da-933a-412f-998f-9ed775db9cf3"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIyOjEyLjUzMjc2MyIsInVzZXJfaWQiOiJmNjY1YTRkYS1mYWEzLTQ4ZDktYjYzNC0zODNjYjIwZmU2MjkifQ.lDuuCt6nuhPGHYL4JYsx0jeilKW2CNuSFb2YrMUbD6s' \
+  -H 'content-length': '558' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Невыносимый чем поговорить тревога покидать.","maxScore":98,"minScore":23,"description":"Проход реклама неожиданный наступать наступать упор исследование. Кузнец исследование за коммунизм головной зачем. Пища советовать очередной решение.","estimatedTime":"10 weeks","previewFileId":"b456189d-8b94-414c-a9f0-d10c1a4547d8","createdByUserId":"f665a4da-faa3-48d9-b634-383cb20fe629"}'

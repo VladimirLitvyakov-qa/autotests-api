@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIyOjEzLjcxNjY2NiIsInVzZXJfaWQiOiJmMjMyYzIyMC1kZDhjLTQ2MDktOTZhZi0zMmNiMzBiOTk3MWMifQ.iRjFjIVL_gLWb3P3jJv7o3-0XNySkKqAfedOyx7yMNI' \
+  -H 'content-length': '427' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Покинуть выдержать белье банк выражаться оборот уточнить.","courseId":"466259a4-4a7b-4102-aaba-c7aa6e0335d9","maxScore":78,"minScore":13,"orderIndex":49,"description":"Изредка место разнообразный жестокий вообще печатать. Покидать равнодушный проход неправда.","estimatedTime":"8 weeks"}'

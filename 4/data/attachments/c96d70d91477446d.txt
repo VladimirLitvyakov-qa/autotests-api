@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b3f98299-5dc1-4495-898d-1ea640fd4c13' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIyOjEyLjUzMjc2MyIsInVzZXJfaWQiOiJmNjY1YTRkYS1mYWEzLTQ4ZDktYjYzNC0zODNjYjIwZmU2MjkifQ.lDuuCt6nuhPGHYL4JYsx0jeilKW2CNuSFb2YrMUbD6s' \
+  -H 'content-length': '453' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Светило адвокат дружно строительство еврейский падать.","maxScore":51,"minScore":17,"description":"Князь ломать набор забирать. Да конструкция штаб страсть роса.\nЧетко функция академик багровый близко освободить. Вскакивать услать растеряться.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIyOjExLjk0OTc3MyIsInVzZXJfaWQiOiIxNmE2ODAzOC01MDMzLTQ5NGEtYjM5NC1kMzdlMWYzMjc1NjEifQ.pgK1kt2ovao5BhFXPC2D2zF-qCl_cqAbfUyqoB4_q6Y' \
+  -H 'content-length': '601' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Доставать конструкция реклама отъезд казнь.","maxScore":72,"minScore":25,"description":"Горький бак услать научить возбуждение инвалид правый сохранять. Собеседник налево прежний тесно роскошный оставить. Горький миф тесно конференция применяться ручей школьный.","estimatedTime":"2 weeks","previewFileId":"28f9e4ef-9e00-432c-b244-10e63878cd6b","createdByUserId":"16a68038-5033-494a-b394-d37e1f327561"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIyOjE0LjI5ODQzNCIsInVzZXJfaWQiOiI5OTRkM2QzNS03YWViLTRiYmItOGVhMi03ODYzYmE5NDE1YWEifQ.A2tG1J11xtLCgMHh9fxf-bq7ZFHezZcvVKDjJ0zUxe0' \
+  -H 'content-length': '529' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Потрясти ныне научить похороны остановить инвалид.","maxScore":63,"minScore":14,"description":"Протягивать торговля провинция освобождение. Легко багровый провинция падать. Один равнодушный расстройство хотеть мимо секунда.","estimatedTime":"3 weeks","previewFileId":"403f2d22-93c3-4efc-9ef1-099cf9e4da43","createdByUserId":"994d3d35-7aeb-4bbb-8ea2-7863ba9415aa"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDA0OjIyOjE1LjU1MTQ0MyIsInVzZXJfaWQiOiIwYmExMTQ0OS1kNTZiLTRlNTYtYjIxZC02NjUxOTkyYmFiZjIifQ.49jfN6azHrrq91bsicv0fLFGvD7WB-syueims_oLM8A' \
+  -H 'content-length': '614' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Багровый провал возмутиться.","maxScore":84,"minScore":21,"description":"Грудь жестокий секунда командование пропасть инвалид приходить приличный. Упор упор прежде выбирать задержать упорно.\nРеклама тута наткнуться прежний заработать. Полевой ответить торговля сустав.","estimatedTime":"10 weeks","previewFileId":"f59415b1-9f28-4f12-9452-74032304f1c0","createdByUserId":"0ba11449-d56b-4e56-b21d-6651992babf2"}'
